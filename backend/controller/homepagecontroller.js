@@ -6,7 +6,7 @@ require('dotenv').config();
 
 module.exports.page = async function(req,res){
 	try{
-
+		
 	}catch(error){
 		console.error(error);
 	}
@@ -14,7 +14,7 @@ module.exports.page = async function(req,res){
 
 module.exports.getclasses = async function(req,res){
 	try{
-
+		
 	}catch(error){
 		console.error(error);
 	}
