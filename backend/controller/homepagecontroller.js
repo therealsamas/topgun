@@ -11,3 +11,11 @@ module.exports.page = async function(req,res){
 		console.error(error);
 	}
 }
+
+module.exports.getclasses = async function(req,res){
+	try{
+
+	}catch(error){
+		console.error(error);
+	}
+}

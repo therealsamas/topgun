@@ -8,9 +8,7 @@ const User = require('./backend/models/user');
 const mongostorre = require('connect-mongo');
 
 
-app.use(passport.initialize());
-app.use(passport.session());
-app.use(passport.setAuthenticatedUser);
+
 app.use('/',require('./backend/routes'));
 
 
